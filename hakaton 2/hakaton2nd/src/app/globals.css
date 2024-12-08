@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-xs {
+  font-size: 12px;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.text-xl {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.text-2xl {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.text-3xl {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.text-4xl {
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.label {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.image-container {
+  margin-top: 20px;
+}
